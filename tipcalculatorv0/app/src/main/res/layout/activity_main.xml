@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_column="2"
+    android:layout_row="4"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditTextText
+      android:id = "@+id/et_amount"
+      android:layout_columnSpan="2"
+      android:layout_gravity ="fill_horizontal"
+      android:layout_row="0"
+      android:layout_column="0"
+      android:background-"#faca7a"
+      android:hint="Enter Amount"
+      android:inputtype="numberDecimal"
+      android:padding="12dp"/>
+    <TextView
+        android:id="@+id/tv_percent"
+        android:text="15%"
+        android:textSize="16sp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"/>
+    <SeekBar
+        android:id="@+id/sb_percent"
+        android:max="30"
+        android:layout_columm-"1"
+        android:layout_row="1"
+        android:progress="15"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
