@@ -7,18 +7,26 @@
     android:layout_column="2"
     android:layout_row="4"
     android:padding="16dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"><![CDATA[
+
+    "#faca7a"
+      android:hint="Tip Calculator"
+      android:input type="numberDecimal"
+      android:padding="12dp"/>
+    ]]>
 
     <EditTextText
-      android:id = "@+id/et_amount"
-      android:layout_columnSpan="2"
-      android:layout_gravity ="fill_horizontal"
-      android:layout_row="0"
-      android:layout_column="0"
-      android:background-"#faca7a"
-      android:hint="Enter Amount"
-      android:inputtype="numberDecimal"
-      android:padding="12dp"/>
+        android:id="@+id/et_amount"
+        android:layout_width="321dp"
+        android:layout_height="66dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:background-
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="32dp"
+
     <TextView
         android:id="@+id/tv_percent"
         android:text="15%"
